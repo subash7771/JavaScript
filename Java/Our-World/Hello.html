@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Our-World</title>
+    <script>
+
+      function hello(){
+        if (document.querySelector('h1').innerHTML === 'Hello!'){
+          document.querySelector('h1').innerHTML = 'Goodbye!';
+        }
+        else {
+          document.querySelector('h1').innerHTML = 'Hello!';
+        }
+        
+      }
+    </script>
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Hello World !!</h1>
+      <button onclick="hello()"> Click Here to Change. 
+      </button>
+</body>
+</html>
